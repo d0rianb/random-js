@@ -1,6 +1,6 @@
 {
-    "name": "@dorianb/random",
-    "version": "0.0.1",
+    "name": "@dorianb/random-js",
+    "version": "0.0.2",
     "description": "A random js library for a quite simple usage",
     "main": "lib/main.js",
     "directories": {
@@ -10,7 +10,8 @@
     },
     "scripts": {
         "test": "node test/test.js",
-        "docs": "node_modules/.bin/jsdoc2md  --no-cache --partial docs/scope.hbs -t docs/README.hbs lib/*.js > README.md"
+        "docs": "node_modules/.bin/jsdoc2md  --no-cache --partial docs/scope.hbs -t docs/README.hbs lib/*.js > README.md",
+        "publish": "npm run docs && npm publish"
     },
     "keywords": [
         "simple",

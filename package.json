@@ -1,0 +1,21 @@
+{
+  "name": "random",
+  "version": "0.0.1",
+  "description": "A random js library for a quite simple usage",
+  "main": "lib/main.js",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "simple",
+    "random",
+    "library"
+  ],
+  "author": "D0rian <dorian.beauchesne@icloud.com>",
+  "license": "MIT"
+}

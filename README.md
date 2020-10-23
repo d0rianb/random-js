@@ -7,8 +7,10 @@
 
 * [Random](#Random)
     * [.random()](#Random.random) ⇒ <code>number</code>
-    * [.randint(_min, _max)](#Random.randint) ⇒ <code>number</code>
+    * [.randint(a, b)](#Random.randint) ⇒ <code>number</code>
     * [.choice(array)](#Random.choice) ⇒ <code>any</code>
+    * [.bool()](#Random.bool) ⇒ <code>boolean</code>
+    * [.percent(percentage)](#Random.percent) ⇒ <code>boolean</code>
 
 <a name="Random.random"></a>
 
@@ -17,14 +19,14 @@
 **Returns**: <code>number</code> - Random number between 0 and 1  
 <a name="Random.randint"></a>
 
-### Random.randint(_min, _max) ⇒ <code>number</code>
+### Random.randint(a, b) ⇒ <code>number</code>
 <!-- Empty to hide the `**Kind**` tag in documentation -->
-**Returns**: <code>number</code> - A random integer in the interval [min, max]  
+**Returns**: <code>number</code> - A random integer in the interval [a, b]  
 
 | Param | Type | Description |
 | --- | --- | --- |
-| _min | <code>number</code> | The lower band of the interval |
-| _max | <code>number</code> | The upper band of the interval |
+| a | <code>number</code> | The lower band of the interval |
+| b | <code>number</code> | The upper band of the interval |
 
 <a name="Random.choice"></a>
 
@@ -35,6 +37,20 @@
 | Param | Type | Description |
 | --- | --- | --- |
 | array | <code>Array</code> | An array of elements |
+
+<a name="Random.bool"></a>
+
+### Random.bool() ⇒ <code>boolean</code>
+<!-- Empty to hide the `**Kind**` tag in documentation -->
+**Returns**: <code>boolean</code> - A random boolean  
+<a name="Random.percent"></a>
+
+### Random.percent(percentage) ⇒ <code>boolean</code>
+<!-- Empty to hide the `**Kind**` tag in documentation -->
+
+| Param | Type | Description |
+| --- | --- | --- |
+| percentage | <code>number</code> | A percentage between 0 and 100 |
 
 
 * * *

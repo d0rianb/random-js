@@ -1,6 +1,6 @@
 {
     "name": "@dorianb/random-js",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "A random js library for a quite simple usage",
     "main": "lib/main.js",
     "directories": {

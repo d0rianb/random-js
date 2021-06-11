@@ -10,6 +10,7 @@
     * [.randint(a, b)](#Random.randint) ⇒ <code>number</code>
     * [.choice(array)](#Random.choice) ⇒ <code>any</code>
     * [.bool()](#Random.bool) ⇒ <code>boolean</code>
+    * [.sign()](#Random.sign) ⇒ <code>number</code>
     * [.percent(percentage)](#Random.percent) ⇒ <code>boolean</code>
 
 <a name="Random.random"></a>
@@ -43,6 +44,11 @@
 ### Random.bool() ⇒ <code>boolean</code>
 <!-- Empty to hide the `**Kind**` tag in documentation -->
 **Returns**: <code>boolean</code> - A random boolean  
+<a name="Random.sign"></a>
+
+### Random.sign() ⇒ <code>number</code>
+<!-- Empty to hide the `**Kind**` tag in documentation -->
+**Returns**: <code>number</code> - Return +1 or -1 with a probability of 0.5  
 <a name="Random.percent"></a>
 
 ### Random.percent(percentage) ⇒ <code>boolean</code>

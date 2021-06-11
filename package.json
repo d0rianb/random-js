@@ -1,8 +1,8 @@
 {
     "name": "@dorianb/random-js",
-    "version": "0.0.4",
+    "version": "0.0.7",
     "description": "A random js library for a quite simple usage",
-    "main": "lib/main.js",
+    "main": "dist/main.min.js",
     "directories": {
         "doc": "docs",
         "lib": "lib",
@@ -11,7 +11,8 @@
     "scripts": {
         "test": "node test/test.js",
         "docs": "node_modules/.bin/jsdoc2md  --no-cache --partial docs/scope.hbs -t docs/README.hbs lib/*.js > README.md",
-        "publish": "npm run docs && npm publish"
+        "build": "npx terser --compress --mangle -- lib/main.js > dist/main.min.js",
+        "publish-to-npm": "npm run build && npm run docs && npm publish"
     },
     "keywords": [
         "simple",
@@ -21,6 +22,7 @@
     "author": "D0rian <dorian.beauchesne@icloud.com>",
     "license": "MIT",
     "devDependencies": {
-        "jsdoc-to-markdown": "^6.0.1"
+        "jsdoc-to-markdown": "^6.0.1",
+        "terser": "^5.7.0"
     }
 }
